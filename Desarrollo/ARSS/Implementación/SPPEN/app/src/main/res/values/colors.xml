@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGlamourApp">#7b1fa2</color>
+    <color name="colorPrimary">#7b1fa2</color>
+    <color name="colorPrimaryDark">#9c27b0</color>
+    <color name="colorPrimaryLight">#e1bee7</color>
+    <color name="colorPrimaryLight2">#e1bee7</color>
+    <color name="colorAccent">#e040fb</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="clr_blanco_transparente">#33FFFFFF</color>
+    <color name="clr_transparente">#00FFFFFF</color>
+    <color name="colorSeletedCity">#85CAD2</color>
+    <color name="colorHour">#E06CB1</color>
+    <color name="colorBackgroundAddAppointment">#F4F0E5</color>
+</resources>
