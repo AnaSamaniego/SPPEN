@@ -25,6 +25,7 @@
             android:drawableLeft="@drawable/icon_corazon"
             android:gravity="center_vertical"
             android:textSize="15sp"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+			android:visible="invisible"/>
 
 </RelativeLayout>
