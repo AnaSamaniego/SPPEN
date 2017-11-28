@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAddAppointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/includeHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/content_head"/>
+
+        <include
+            android:id="@+id/includeServices"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            layout="@layout/content_add_extras"/>
+
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strWayPay"
+            android:background="@color/colorGlamourApp"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:layout_marginTop="15dp"/>
+
+        <include
+            android:id="@+id/includeWayPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/content_way_pay"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strTimeAprox"
+            android:background="@color/colorGlamourApp"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/tvTimeAprox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tvDateHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDateHour"
+            android:background="@color/colorGlamourApp"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"/>
+
+        <include
+            android:id="@+id/includeHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/content_hour"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/tvLocationService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDateHour"
+            android:background="@color/colorGlamourApp"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="15dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"/>
+
+        <include
+            android:id="@+id/includeLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/content_location"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/btnReady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGlamourApp"
+            android:text="@string/strReady"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
